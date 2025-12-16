@@ -4,3 +4,6 @@ git commit -m "Initial commit - Prediction Board dApp"
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/prediction-board-dapp.git
 git push -u origin main
+git add vercel.json .vercelignore
+git commit -m "Fix Vercel deployment configuration"
+git push origin main
